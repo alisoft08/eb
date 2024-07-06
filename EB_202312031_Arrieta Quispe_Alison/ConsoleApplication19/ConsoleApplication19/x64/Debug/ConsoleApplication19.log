@@ -1,0 +1,54 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: El directorio intermedio (x64\Debug\) contiene archivos compartidos de otro proyecto (ConsoleApplication19.vcxproj, pc2.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  ConsoleApplication19.cpp
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(86,17): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(179,9): warning C4101: 'posRegistro': variable local sin referencia
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(304,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(373,23): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(462,79): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(465,29): warning C4129: 'E': secuencia de escape de carácter no reconocida
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(466,77): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(469,132): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(300,10): warning C4101: 'mayor': variable local sin referencia
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(61,27): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "ConsoleApplication19.cpp")
+  C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(61,27):
+  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+  	C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(21,26):
+  	Vea la referencia a la creación de una instancia de clase plantilla "CGrafo<int,-1>" que se está compilando
+  	C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(56,6):
+  	al compilar la función del miembro clase plantilla "int CGrafo<int,-1>::adicionarArco(int,int)"
+  		C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(36,25):
+  		vea la primera referencia a “CGrafo<int,-1>::adicionarArco” en “crearGrafo”
+  
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(42,27): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "ConsoleApplication19.cpp")
+  C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(42,27):
+  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+  	C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(38,6):
+  	al compilar la función del miembro clase plantilla "int CGrafo<int,-1>::adicionarVertice(T)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(29,28):
+  		vea la primera referencia a “CGrafo<int,-1>::adicionarVertice” en “crearGrafo”
+  
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(65,38): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "ConsoleApplication19.cpp")
+  C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(65,38):
+  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+  	C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(64,6):
+  	al compilar la función del miembro clase plantilla "int CGrafo<int,-1>::cantidadArcos(int)"
+  		C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(61,9):
+  		vea la primera referencia a “CGrafo<int,-1>::cantidadArcos” en “imprimirGrafo”
+  
+C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(46,24): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "ConsoleApplication19.cpp")
+  C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(46,24):
+  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+  	C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\Grafo.h(45,6):
+  	al compilar la función del miembro clase plantilla "int CGrafo<int,-1>::cantidadVertices(void)"
+  		C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.cpp(57,5):
+  		vea la primera referencia a “CGrafo<int,-1>::cantidadVertices” en “imprimirGrafo”
+  
+  ConsoleApplication19.vcxproj -> C:\Users\HP SUPPORT\Downloads\PC2_202312031_Arrieta Quispe_Alison Jimena (3)\PC2_202312031_Arrieta Quispe_Alison Jimena\ConsoleApplication19\x64\Debug\EvaluacionFinal.exe
